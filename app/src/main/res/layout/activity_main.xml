@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#0000"
+    tools:context="com.example.mycalculator.ComplexActivity"
+    >
+    <LinearLayout
+        android:background="#bdbdbd"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+
+        android:paddingLeft="130dp"
+        android:paddingTop="140dp"
+
+        >
+        <Button
+            android:background="#ffff"
+            android:id="@+id/simple"
+            android:layout_width="150dp"
+            android:layout_height="60dp"
+            android:text="简单计算器"/>
+    </LinearLayout>
+    <LinearLayout
+        android:background="#bdbdbd"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        >
+        <Button
+            android:background="#ffff"
+            android:id="@+id/complex"
+            android:layout_width="150dp"
+            android:layout_height="60dp"
+            android:text="科学计算器"/>
+    </LinearLayout>
+    <LinearLayout
+        android:background="#bdbdbd"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:paddingTop="25dp"
+        android:paddingLeft="130dp"
+        >
+        <Button
+            android:background="#ffff"
+            android:id="@+id/sport"
+            android:layout_width="150dp"
+            android:layout_height="60dp"
+            android:text="体测计算器"/>
+    </LinearLayout>
+
+</LinearLayout>
